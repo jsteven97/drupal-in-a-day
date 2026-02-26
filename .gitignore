@@ -1,0 +1,28 @@
+# Archivo de sistema
+.DS_Store
+
+# Dependencias gestionadas por Composer
+/vendor/
+
+# Código de Drupal gestionado por Composer
+/web/core/
+/web/modules/contrib/
+/web/profiles/contrib/
+/web/themes/contrib/
+
+# Archivos sensibles y de entorno
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+
+# Archivos subidos por usuarios y artefactos
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/simpletest/
+
+# Dump local de base de datos
+*.sql
+*.sql.gz
+
+# Logs y temporales
+*.log
+/tmp/
